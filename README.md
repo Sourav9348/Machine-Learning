@@ -163,7 +163,7 @@ model_qda.fit(X,Y)
 ```  
 * accuracy reaching 96%.  
 
-#### *Random Forest Classifier Pipeline*  
+#### *Random Forest and LightGBM Classifier Pipeline*  
 * `Model = RandomForestClassifier(random_state=0)`
 * predict between `Operating`, `IPO`, `Acquired`, and `Closed`.  
 * the training labels for the `y` variable are represented in the `status` column in our data.  
@@ -180,8 +180,8 @@ A framework that helps create web applications for your models while using simpl
 Our app allows the user to enter a few pieces of information about the company/startup of interest:  
 `Founded on the year`, `Funding Rounds`, `First Funding At`, `Last Funding At`, `Total Funding in USD`, `First Milestone At`, `Last Milestone At`, `Milestones`, `Relationships`.  
 The app takes the data and predicts based on the classifiers QDA and Random Forest.  
-![model](./post.png)  
+ 
   
 #### Heroku  
-In order to deploy our model, [Heroku](https://www.heroku.com/) was used.  link: https://startup-acquisition-prediction.herokuapp.com/
+In order to deploy our model, [Heroku](https://www.heroku.com/) was used.  link: 
 ---  
