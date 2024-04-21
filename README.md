@@ -170,7 +170,7 @@ model_qda.fit(X,Y)
 ```python
 model_rf.fit(X, y)
 ```  
-* accuracy reaching 91%.  
+* accuracy reaching 96%.  
 
 ---  
  
