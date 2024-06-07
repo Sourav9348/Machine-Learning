@@ -183,5 +183,5 @@ The app takes the data and predicts based on the classifiers QDA and Random Fore
  
   
 #### Heroku  
-In order to deploy our model, [Heroku](https://www.heroku.com/) was used.  link: 
+In order to deploy our model, [Streamlit]([https://www.heroku.com/](https://streamlit.io/)) was used.  link: https://startup-acquisition-predition.streamlit.app/
 ---  
